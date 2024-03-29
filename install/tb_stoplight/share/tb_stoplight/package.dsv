@@ -1,0 +1,6 @@
+source;share/tb_stoplight/hook/pythonpath.ps1
+source;share/tb_stoplight/hook/pythonpath.dsv
+source;share/tb_stoplight/hook/pythonpath.sh
+source;share/tb_stoplight/hook/ament_prefix_path.ps1
+source;share/tb_stoplight/hook/ament_prefix_path.dsv
+source;share/tb_stoplight/hook/ament_prefix_path.sh

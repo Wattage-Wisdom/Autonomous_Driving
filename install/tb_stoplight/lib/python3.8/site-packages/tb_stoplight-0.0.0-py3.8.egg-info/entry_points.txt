@@ -1,0 +1,8 @@
+[console_scripts]
+image_publisher = tb_stoplight.image_publisher:main
+image_subscriber = tb_stoplight.image_subscriber:main
+interpretor = tb_stoplight.stoplight_interpretor:main
+ml_interpretor = tb_stoplight.ml_interpretor:main
+override = tb_stoplight.manual_override:main
+teleop = tb_stoplight.teleop:main
+
