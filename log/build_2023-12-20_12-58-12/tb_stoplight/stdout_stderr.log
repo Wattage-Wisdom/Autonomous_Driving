@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/tb_stoplight/tb_stoplight.egg-info/PKG-INFO
+writing dependency_links to ../build/tb_stoplight/tb_stoplight.egg-info/dependency_links.txt
+writing entry points to ../build/tb_stoplight/tb_stoplight.egg-info/entry_points.txt
+writing requirements to ../build/tb_stoplight/tb_stoplight.egg-info/requires.txt
+writing top-level names to ../build/tb_stoplight/tb_stoplight.egg-info/top_level.txt
+reading manifest file '../build/tb_stoplight/tb_stoplight.egg-info/SOURCES.txt'
+writing manifest file '../build/tb_stoplight/tb_stoplight.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tb_stoplight/ml_interpretor.py -> /home/william/ETLS699_tb_stoplight/build/tb_stoplight/build/lib/tb_stoplight
+running install
+running install_lib
+copying /home/william/ETLS699_tb_stoplight/build/tb_stoplight/build/lib/tb_stoplight/ml_interpretor.py -> /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight
+byte-compiling /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight/ml_interpretor.py to ml_interpretor.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/tb_stoplight/tb_stoplight.egg-info to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight-0.0.0-py3.8.egg-info
+running install_scripts
+Installing image_publisher script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight
+Installing image_subscriber script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight
+Installing interpretor script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight
+Installing ml_interpretor script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight
+Installing override script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight
+Installing teleop script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight
+writing list of installed files to '/home/william/ETLS699_tb_stoplight/build/tb_stoplight/install.log'

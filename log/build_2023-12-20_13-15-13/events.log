@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (tb_stoplight) JobQueued: {'identifier': 'tb_stoplight', 'dependencies': OrderedDict()}
+[0.000782] (tb_stoplight) JobStarted: {'identifier': 'tb_stoplight'}
+[0.100620] (-) TimerEvent: {}
+[0.203910] (-) TimerEvent: {}
+[0.304639] (-) TimerEvent: {}
+[0.405037] (-) TimerEvent: {}
+[0.505501] (-) TimerEvent: {}
+[0.605838] (-) TimerEvent: {}
+[0.706496] (-) TimerEvent: {}
+[0.808023] (-) TimerEvent: {}
+[0.908544] (-) TimerEvent: {}
+[1.009186] (-) TimerEvent: {}
+[1.109627] (-) TimerEvent: {}
+[1.209968] (-) TimerEvent: {}
+[1.310322] (-) TimerEvent: {}
+[1.410685] (-) TimerEvent: {}
+[1.414879] (tb_stoplight) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/tb_stoplight', 'build', '--build-base', '/home/william/ETLS699_tb_stoplight/build/tb_stoplight/build', 'install', '--record', '/home/william/ETLS699_tb_stoplight/build/tb_stoplight/install.log', '--install-scripts', '$base/lib/tb_stoplight', '--single-version-externally-managed'], 'cwd': '/home/william/ETLS699_tb_stoplight/tb_stoplight', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'william', 'SSH_AGENT_PID': '2159', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/william', 'OLDPWD': '/home/william/ETLS699_tb_stoplight/traffic_light_detection', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1974', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/william/ETLS699_tb_stoplight/install:/home/william/colcon_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'william', 'JOURNAL_STREAM': '8:51275', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'william', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/william-XPS-13-7390:@/tmp/.ICE-unix/2199,unix/william-XPS-13-7390:/tmp/.ICE-unix/2199', 'INVOCATION_ID': 'f3182687117346b4b4e76983f5652e2e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/162df630_3bd5_47c1_9285_b54f0a680ada', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.84', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '34', 'AMENT_PREFIX_PATH': '/home/william/ETLS699_tb_stoplight/install/tb_stoplight:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/william/ETLS699_tb_stoplight/build/tb_stoplight', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/william/ETLS699_tb_stoplight/build/tb_stoplight/prefix_override:/home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages:/home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.510810] (-) TimerEvent: {}
+[1.611163] (-) TimerEvent: {}
+[1.711499] (-) TimerEvent: {}
+[1.714331] (tb_stoplight) StdoutLine: {'line': b'running egg_info\n'}
+[1.715242] (tb_stoplight) StdoutLine: {'line': b'writing ../build/tb_stoplight/tb_stoplight.egg-info/PKG-INFO\n'}
+[1.715490] (tb_stoplight) StdoutLine: {'line': b'writing dependency_links to ../build/tb_stoplight/tb_stoplight.egg-info/dependency_links.txt\n'}
+[1.715750] (tb_stoplight) StdoutLine: {'line': b'writing entry points to ../build/tb_stoplight/tb_stoplight.egg-info/entry_points.txt\n'}
+[1.715985] (tb_stoplight) StdoutLine: {'line': b'writing requirements to ../build/tb_stoplight/tb_stoplight.egg-info/requires.txt\n'}
+[1.716092] (tb_stoplight) StdoutLine: {'line': b'writing top-level names to ../build/tb_stoplight/tb_stoplight.egg-info/top_level.txt\n'}
+[1.763332] (tb_stoplight) StdoutLine: {'line': b"reading manifest file '../build/tb_stoplight/tb_stoplight.egg-info/SOURCES.txt'\n"}
+[1.764604] (tb_stoplight) StdoutLine: {'line': b"writing manifest file '../build/tb_stoplight/tb_stoplight.egg-info/SOURCES.txt'\n"}
+[1.764890] (tb_stoplight) StdoutLine: {'line': b'running build\n'}
+[1.765036] (tb_stoplight) StdoutLine: {'line': b'running build_py\n'}
+[1.765139] (tb_stoplight) StdoutLine: {'line': b'copying tb_stoplight/ml_interpretor.py -> /home/william/ETLS699_tb_stoplight/build/tb_stoplight/build/lib/tb_stoplight\n'}
+[1.765610] (tb_stoplight) StdoutLine: {'line': b'running install\n'}
+[1.766548] (tb_stoplight) StdoutLine: {'line': b'running install_lib\n'}
+[1.767634] (tb_stoplight) StdoutLine: {'line': b'copying /home/william/ETLS699_tb_stoplight/build/tb_stoplight/build/lib/tb_stoplight/ml_interpretor.py -> /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight\n'}
+[1.768467] (tb_stoplight) StdoutLine: {'line': b'byte-compiling /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight/ml_interpretor.py to ml_interpretor.cpython-38.pyc\n'}
+[1.770804] (tb_stoplight) StdoutLine: {'line': b'running install_data\n'}
+[1.771448] (tb_stoplight) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.773549] (tb_stoplight) StdoutLine: {'line': b"removing '/home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.773950] (tb_stoplight) StdoutLine: {'line': b'Copying ../build/tb_stoplight/tb_stoplight.egg-info to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/python3.8/site-packages/tb_stoplight-0.0.0-py3.8.egg-info\n'}
+[1.774873] (tb_stoplight) StdoutLine: {'line': b'running install_scripts\n'}
+[1.798193] (tb_stoplight) StdoutLine: {'line': b'Installing image_publisher script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight\n'}
+[1.798522] (tb_stoplight) StdoutLine: {'line': b'Installing image_subscriber script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight\n'}
+[1.798742] (tb_stoplight) StdoutLine: {'line': b'Installing interpretor script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight\n'}
+[1.798849] (tb_stoplight) StdoutLine: {'line': b'Installing ml_interpretor script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight\n'}
+[1.799086] (tb_stoplight) StdoutLine: {'line': b'Installing override script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight\n'}
+[1.799214] (tb_stoplight) StdoutLine: {'line': b'Installing teleop script to /home/william/ETLS699_tb_stoplight/install/tb_stoplight/lib/tb_stoplight\n'}
+[1.799418] (tb_stoplight) StdoutLine: {'line': b"writing list of installed files to '/home/william/ETLS699_tb_stoplight/build/tb_stoplight/install.log'\n"}
+[1.811600] (-) TimerEvent: {}
+[1.824997] (tb_stoplight) CommandEnded: {'returncode': 0}
+[1.914330] (-) TimerEvent: {}
+[2.015348] (-) TimerEvent: {}
+[2.019891] (tb_stoplight) JobEnded: {'identifier': 'tb_stoplight', 'rc': 0}
+[2.020703] (-) EventReactorShutdown: {}
